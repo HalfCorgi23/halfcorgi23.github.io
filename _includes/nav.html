@@ -1,28 +1,13 @@
-<!-- Header -->
-	<header id="header" class="alt">
-		<h1><a href="{{ site.baseurl }}/index.html">Alpha</a> by HTML5 UP</h1>
-		<nav id="nav">
-			<ul>
-				<li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-				<li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-				<li>
-					<a href="" class="icon fa-angle-down">Layouts</a>
-					<ul>
-						<li><a href="#">Generic</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">Elements</a></li>
-						<li>
-							<a href="">Submenu</a>
-							<ul>
-								<li><a href="#">Option One</a></li>
-								<li><a href="#">Option Two</a></li>
-								<li><a href="#">Option Three</a></li>
-								<li><a href="#">Option Four</a></li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-				<li><a href="#" class="button">Sign Up</a></li>
-			</ul>
-		</nav>
-	</header>
+<ul class="links">
+  <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Theme Home</a></li>
+  <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/about/" | absolute_url }}">About</a></li>
+  <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/blog/" | absolute_url }}">Blog</a></li>
+  <li class="{% if page.url contains '/elements/' %} active {% endif %}"><a href="{{ "/elements/" | absolute_url }}">Elements Reference</a></li>
+</ul>
+
+<ul class="icons">
+  <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+  <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
+  <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
+  <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+</ul>
