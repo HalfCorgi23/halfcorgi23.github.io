@@ -1,10 +1,10 @@
 # Config
 # ========================================================================================
 
-# IMPORTANT: Set the URL of your site.
+# IMPORTANT: Set the URL of your page.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://domain.tld
+url:                   https://halfcorgi23.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 #
@@ -15,51 +15,40 @@ url:                   https://domain.tld
 # When using GitHub Pages, set to '' when hosting a user- or organization page,
 # i.e. when the name of the repository looks like <username>.github.io.
 # Otherwise, set to /<name of repository> (with leading /, but without the < >).
-baseurl:               ''
+baseurl:               /
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  cn
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 半拉柯基的博客
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  A Jekyll theme with JavaScript powers. "Best Theme by a Mile".
-  Combines the best of static sites and modern web apps.
-  Open `_config.yml` to edit this text.
+  这个人一点都不懒，但还是什么都没有留下……
 
 # A shorter description for the sidebar.
 tagline:               >
-  A Jekyll theme with JavaScript powers.
-  Open `_config.yml` to edit this text.
+  在写了，鸽鸽什么时候骗过你？
 
-# A list of keywords for your blog
+# A list of keywords for your blog.
 keywords:              []
 
-# Used by jekyll-seo-tag...
+# Used by jekyll-seo-tag.
 logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 # Duplication is necessary due to the `jekyll-feed`, `jekyll-seo-tag` plugin.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                半拉柯基
+  email:               issacguo@foxmail.com
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2017. All rights reserved.
-
-# Add links to the footer.
-# Typically you'll want to link to your impress, cookies or privacy policy, etc.
-# legal:
-#   - title:             Impress
-#     href:              /impress/
-#   - title:             Cookies Policy
-#     href:              /cookies-policy/
+copyright:             © 2019. All rights reserved.
 
 # Format of the permalinks
 permalink:             pretty
@@ -89,16 +78,18 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
 
-# Set your Google Analytics id to receive `pageview` events.
-# To remove Google Anaylics from your page, remove the line below.
-# google_analytics:      UA-XXXXXXXX-X
-
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
 # disqus:                <disqus_shortname>
 
+# Set your Google Analytics id to receive `pageview` events.
+# To remove Google Anaylics from your page, remove the line below.
+# google_analytics:      UA-XXXXXXXX-X
+
 # Setting a tinyletter username will enable the newsletter subscription box.
+# PRO version only!
 # tinyletter:            <tinyletter_username>
+
 
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------
@@ -142,10 +133,6 @@ hydejack:
   # Set to `true` when building with the `--lsi` option
   use_lsi:             false
 
-  # When using Google Analytics, set to `true` to display a cookie notice banner.
-  # When enabled, no user-related data will be stored until the user gives consent.
-  cookies_banner:      false
-
 
 # Collections
 # ========================================================================================
@@ -171,36 +158,32 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - package.json
-  - package-lock.json
-include:
-  - LICENSE.md
 
 
 # Plugins and Plugin Configuration
 # ========================================================================================
 
 plugins:
-  # - jekyll-avatar
-  # - jekyll-default-layout
+  - jekyll-avatar
+  - jekyll-default-layout
   - jekyll-feed
-  # - jekyll-gist
-  # - jekyll-optional-front-matter
+  - jekyll-gist
+  - jekyll-optional-front-matter
   - jekyll-paginate
-  # - jekyll-readme-index
-  # - jekyll-redirect-from
+  - jekyll-readme-index
+  - jekyll-redirect-from
   - jekyll-relative-links
-  # - jekyll-remote-theme
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
-  # - jekyll-titles-from-headings
+  - jekyll-titles-from-headings
 
 # Theme
 # ---------------------------------------------------------------------------------------
 
 # theme: jekyll-theme-hydejack
-# remote_theme: qwtel/hydejack@gem
+remote_theme: qwtel/hydejack@gem-7.5.0
+
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
@@ -216,7 +199,7 @@ plugins:
 
 # Used for Twitter cards
 # twitter:
-#   username:            <shortname>
+#   username:            <twitter handle>
 
 # Used for Facebook open graph
 # facebook:
@@ -256,11 +239,9 @@ kramdown:
     preview_as_code:   true
 
 compress_html:
-  comments:            ["<!-- ", " -->"]
+  comments:            ['<!-- ', ' -->']
   clippings:           all
   endings:             all
-  ignore:
-    envs:              [development]
 
 sass:
   style:               compressed

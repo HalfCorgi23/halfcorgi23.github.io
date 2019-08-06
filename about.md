@@ -1,12 +1,22 @@
 ---
+# This page uses Hydejack's `about` layout, which shows the primary author's picture and about text at the top.
+# You can change it to the regular `page` layout if you want.
 layout: about
+
+# The title of the page.
 title: About
+
+# Write a short (~150 characters) description of each blog post.
+# This description is used to preview the page on search engines, social media, etc.
 description: >
-  **Hydejack** is a Jekyll theme with JavaScript powers, combining the best of static sites and modern web apps.
-  It features a suite of JavaScript that makes the page feel like an app, without sacrificing backwards-compatibility,
-  page-load speed or SEO.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+# You can show the description on the page by deleting this line:
+hide_description: true
+
+# Setting `menu` will generate an entry in the sidebar.
 menu: true
-order: 4
 ---
 
 **Hydejack** is the complete package for professionals on the web.
@@ -138,9 +148,9 @@ built-in support for [Tinyletter], and from element styles so you can build arbi
 [syntax]: #syntax-highlighting
 [latex]: #latex-math-blocks
 
-[license]: LICENSE.md
-[pro]: licenses/PRO.md
-[docs]: docs/7.5.0/index.md
+[license]: https://qwtel.com/hydejack/LICENSE/
+[pro]: https://qwtel.com/hydejack/licenses/PRO/
+[docs]: https://qwtel.com/hydejack/docs/7.5.0/
 
 [kit]: https://github.com/qwtel/hydejack-starter-kit/archive/v7.5.0.zip
 [src]: https://github.com/qwtel/hydejack
