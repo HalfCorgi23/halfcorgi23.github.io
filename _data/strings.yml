@@ -10,40 +10,40 @@
 
 # Free version
 # ---------------------------------------------------------------------------------------
-home:                  Home
-pages:                 Pages
-posts:                 Posts
-about:                 About
-related_posts:         Related Posts
-other_projects:        Other Projects
-comments:              Comments
-jump_to:               Jump to
-navigation:            Navigation
-social:                Social
-links:                 Links
-pagination:            Pagination
-newer:                 Newer
-older:                 Older
-back:                  Back
-templates:             Templates (for web app)
+home:                  主页
+pages:                 页面
+posts:                 文章
+about:                 关于
+related_posts:         相关文章
+other_projects:        其他项目
+comments:              评论
+jump_to:               跳转到
+navigation:            导航
+social:                社交
+links:                 链接
+pagination:            页码
+newer:                 后续文章
+older:                 以往文章
+back:                  返回
+templates:             模板
 
-loading:               Loading…
-redirecting:           Redirecting…
+loading:               正在加载…
+redirecting:           正在跳转…
 
 continue_reading:      >
-  Continue reading <!--post_title-->
+  继续阅读 <!--post_title-->
 
 not_found:
-  title:               '404: Page Not Found'
+  title:               '404: 页面未找到'
   message:             |
-    Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
-    <!--home_link--> to try finding it again.
-  home_link:           Head back home
+    很抱歉，我们没有找到此链接。
+    请返回<!--home_link-->重试！
+  home_link:           主页面
 
 error:
-  title:               Error
+  title:               错误
   message:             |
-    Sorry, an error occurred while loading <!--link-->.
+    很抱歉，我们加载链接<!--link-->时出现错误。
 
 # Separators
 # ---------------------------------------------------------------------------------------
