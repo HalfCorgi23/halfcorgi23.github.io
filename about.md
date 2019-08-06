@@ -4,7 +4,7 @@
 layout: about
 
 # The title of the page.
-title: 关于
+title: about
 
 # Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
@@ -16,7 +16,7 @@ description: >
 hide_description: true
 
 # Setting `menu` will generate an entry in the sidebar.
-menu: true
+menu: false
 ---
 
 **Hydejack** is the complete package for professionals on the web.
