@@ -27,8 +27,8 @@ older:                 以往文章
 back:                  返回
 templates:             模板
 
-loading:               正在加载…
-redirecting:           正在跳转…
+loading:               正在加载……
+redirecting:           正在跳转……
 
 continue_reading:      >
   继续阅读 <!--post_title-->
@@ -71,12 +71,12 @@ date_formats:
 # If you don't own the PRO version of Hydejack, modifying these will have no effect.
 
 tinyletter:
-  title:               Newsletter
-  label:               Email
-  placeholder:         mail@example.com
-  button:              Subscribe
+  title:               更新
+  label:               邮箱
+  placeholder:         issacguo@foxmail.com
+  button:              订阅
   message:             |
-    Subscribe to my newsletter.
+    订阅更新.
     0
     <!--form-->
 
@@ -97,7 +97,7 @@ resume:
   from_to_separator:   '–'
   present:             present
   email:               Email
-  phone:               Phone
+  phone:               电话
   website:             Website
   work:                Experience
   work_title:          <!--position--> at <!--company-->
@@ -112,7 +112,7 @@ resume:
   publications:        Publications
   publications_title:  <!--name--> by <!--publisher-->
   references:          References
-  languages:           Languages
+  languages:           语言
   fluency:             Fluency
   skills:              Skills
   level:               Level
