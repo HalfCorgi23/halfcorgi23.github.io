@@ -77,7 +77,7 @@ paginate_path:         /page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          https://s2.ax1x.com/2019/08/07/e5t3uR.jpg
 accent_color:          rgb(70,130,180)
 
 # This is used for the `theme-color` meta tag,
@@ -293,11 +293,10 @@ remote_theme: qwtel/hydejack@v8.4.0
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+  name:                半拉柯基
+links:
+  - https://github.com/HalfCorgi23
 
 
 # Other Plugins
