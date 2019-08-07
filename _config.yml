@@ -49,6 +49,8 @@ author:
 menu:
   - title:             知识笔记
     url:               /example/
+  - title:             技术笔记
+    url:               /tech-notes/
   - title:             关于
     url:               /about/
 
