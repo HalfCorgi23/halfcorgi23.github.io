@@ -39,7 +39,7 @@ continue_reading:      >
 cookies_banner:
   text:                >
     本站使用Cookie。 [Cookies Policy](/cookies-policy/).
-  okay:                Okay
+  okay:                OK
 
 not_found:
   title:               '404: 页面未找到'
@@ -57,9 +57,9 @@ error:
 # ---------------------------------------------------------------------------------------
 colon:                 ':'
 separator:             '|'
-category_start:        'in '
+category_start:        '于 '
 category_spearator:    ' / '
-tag_start:             'on '
+tag_start:             '在 '
 tag_separator:         ', '
 from_to_separator:     '–'
 
@@ -96,7 +96,7 @@ tinyletter:
 
 welcome:
   more_projects:       在 <!--projects_title--> 查看更多
-  more_posts:          See <!--posts_title--> 查看更多
+  more_posts:          在 <!--posts_title--> 查看更多
 
 resume:
   location:            Location
