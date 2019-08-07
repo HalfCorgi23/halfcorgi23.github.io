@@ -1,23 +1,30 @@
-# Mediumish - Jekyll Theme
+# Hydejack Starter Kit
 
-[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/) &nbsp; | &nbsp; [Buy me a coffee](https://www.wowthemes.net/donate/)
+A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
 
-![mediumish](assets/images/mediumish-jekyll-template.png)
+## Quick Start
+### Running locally
+1. Clone repository (git users), or [download] and unzip.
+2. Open terminal, `cd` into root directory (where `_config.yml` is located)
+3. `bundle install` [^1]
+4. `bundle exec jekyll serve`
+5. Open <http://localhost:4000/hy-starter-kit/>
 
+### GitHub Pages
+1. Fork this repository.
+2. Go to **Settings**, rename repository to `<your github username>.github.io` (without the `<` `>`)
+3. Edit `_config.yml` (you can do this directly on GitHub)
+    1. Change `url` to `https://<your github username>.github.io` (without the `<` `>`)
+    2. Change `baseurl` to `''` (empty string)
+    3. **Commit changes**.
+4. Go to **Settings** again, look for **GitHub Pages**, set **Source** to **master branch**.
+5. Click **Save** and wait for GitHub to set up your new blag.
 
-### Copyright
+## What's next?
+* Open files and read the comments
+* Read the [docs](https://hydejack.com/docs/)
+* Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
 
-Copyright (C) 2019 Sal, https://www.wowthemes.net
+[^1]: Requires Bundler. Install with `gem install bundler`.
 
-**Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. 
-
-<a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-### Contribute
-
-1. [Fork the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
-2. Clone a copy of your fork on your local
-3. Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
-4. Make necessary changes, commit, push and open a pull request on GitHub.
-
-Thank you!
+[download]: https://github.com/qwtel/hy-starter-kit/archive/master.zip
