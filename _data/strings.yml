@@ -10,48 +10,48 @@
 
 # Free version
 # ---------------------------------------------------------------------------------------
-home:                  Home
-pages:                 Pages
-posts:                 Posts
-about:                 About
-related_posts:         Related Posts
-other_projects:        Other Projects
-comments:              Comments
-jump_to:               Jump to
-navigation:            Navigation
-social:                Social
-links:                 Links
+home:                  主页
+pages:                 页面
+posts:                 文章
+about:                 关于
+related_posts:         相关文章
+other_projects:        其他项目
+comments:              评论
+jump_to:               跳转到
+navigation:            导航
+social:                社交网络
+links:                 链接
 pagination:            Pagination
-newer:                 Newer
-older:                 Older
-back:                  Back
+newer:                 后续文章
+older:                 过往文章
+back:                  返回
 permalink:             Permalink
 permalink_icon:        icon-link
 templates:             Templates (for web app)
 present:               present
 
-loading:               Loading…
-redirecting:           Redirecting…
+loading:               正在加载……
+redirecting:           正在跳转……
 
 continue_reading:      >
   Continue reading <!--post_title-->
 
 cookies_banner:
   text:                >
-    This site uses cookies. [Cookies Policy](/cookies-policy/).
+    本站使用Cookie。 [Cookies Policy](/cookies-policy/).
   okay:                Okay
 
 not_found:
-  title:               '404: Page Not Found'
+  title:               '404: 页面未找到'
   message:             |
-    Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
-    <!--home_link--> to try finding it again.
-  home_link:           Head back home
+    很抱歉，这个页面已经丢失或不存在，
+    请 <!--home_link--> 重新寻找一次。
+  home_link:           返回主页
 
 error:
-  title:               Error
+  title:               错误
   message:             |
-    Sorry, an error occurred while loading <!--link-->.
+    很抱歉，我们遇到了一点小错误…… <!--link-->.
 
 # Separators
 # ---------------------------------------------------------------------------------------
